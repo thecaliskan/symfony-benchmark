@@ -12,6 +12,6 @@ WORKDIR /var/www
 
 RUN composer install --no-dev
 
-ENV APP_RUNTIME=Runtime\RoadRunnerSymfonyNyholm\Runtime
+ENV APP_RUNTIME="Runtime\RoadRunnerSymfonyNyholm\Runtime"
 
 ENTRYPOINT ["php", "public/index.php"]

@@ -15,6 +15,6 @@ RUN wget -O/usr/local/bin/frankenphp $(wget -O- https://api.github.com/repos/dun
 
 RUN composer install --no-dev
 
-ENV APP_RUNTIME=Runtime\FrankenPhpSymfony\Runtime
+ENV APP_RUNTIME="Runtime\FrankenPhpSymfony\Runtime"
 
 ENTRYPOINT ["php", "public/index.php"]

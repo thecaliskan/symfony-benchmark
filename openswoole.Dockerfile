@@ -11,6 +11,6 @@ WORKDIR /var/www
 
 RUN composer install --no-dev
 
-ENV APP_RUNTIME=Runtime\Swoole\Runtime
+ENV APP_RUNTIME="Runtime\Swoole\Runtime"
 
 ENTRYPOINT ["php", "public/index.php"]
