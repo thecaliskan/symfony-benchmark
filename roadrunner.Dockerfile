@@ -14,4 +14,4 @@ RUN composer install --no-dev
 
 ENV APP_RUNTIME="Runtime\RoadRunnerSymfonyNyholm\Runtime"
 
-ENTRYPOINT ["php", "public/index.php"]
+ENTRYPOINT ["rr", "serve"]
