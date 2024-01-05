@@ -12,9 +12,11 @@
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.0.*",
         "symfony/runtime": "7.0.*",
-        "symfony/yaml": "7.0.*"
+        "symfony/yaml": "7.0.*",
+        "ext-curl": "*"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.52"
     },
     "config": {
         "allow-plugins": {
